@@ -1,0 +1,298 @@
+@media only screen and (max-width:1024px){
+    .top-banner-wrap .image-slide-01,
+    .top-banner-wrap .image-slide-02{
+        max-height:595px;
+        height:595px;
+    }
+    .slide-text .min-tittle h1{
+        font-size: 63px;
+        padding: 12px 0px;
+    }
+    .slide-text .sub-tittle h4{
+        font-size:16px;
+    }
+    .slide-dect p {
+        font-size: 18px;
+        padding-bottom: 13px;
+    }
+    .slide-btn-1 a{
+        padding: 18px 40px;
+    }
+    a.theme-btn{
+        padding: 18px 40px;
+    }
+    .top-banner-wrap.owl-carousel .owl-prev{
+        font-size: 18px;
+        left: 1%;
+        width:40px;
+        height:40px;
+    }
+    .top-banner-wrap.owl-carousel .owl-next{
+        font-size: 18px;
+        right:1%;
+        width:40px;
+        height:40px;
+    }
+    .slide-text{
+        margin-left: 10px;
+    }
+    .title h2{
+        font-size: 40px;
+    }
+    .commerial-wrap .commerial-img{
+        padding:80px;
+    }
+    .commerial-wrap .commerial-text h3{
+        font-size: 32px;
+    }
+    .commerial-wrap .commerial-text p{
+        font-size: 16px;
+    } 
+}  
+@media only screen and (max-width:768px){
+    nav.show{
+        right: 0% !important;
+    }
+    span.toggle-icon{
+        display: block;
+    }
+    .navbar.navbar-expand-lg{
+        float: none !important;
+        position:fixed;
+        z-index: 99;
+        background-color: rgba(0,0,0,0.8);
+        width: 50%;
+        right: -100%;
+        top: 0;
+        bottom: 0;
+        transition: 0.5s;
+    }
+    .navbar .close-toggle{
+        position: absolute;
+        top: 0;
+        color: #fff;
+        right:5%;
+        padding: 5px;
+        font-size: 30px;
+        margin-top: 10px;
+        display: block;
+    }
+    nav ul.navbar-nav{
+        position: absolute;
+        width: 100%;
+        top: 7%;
+    }
+    nav ul.navbar-nav > li{
+        position: inherit;
+    }
+    ul.navbar-nav > li > ul{
+        position: inherit;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        display: none;
+        transition: none;
+    }
+    nav ul.navbar-nav > li{
+        padding: 1px 0px;
+    }
+    .navbar-nav > li > ul {
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    ul.navbar-nav > li > ul > li > a{
+        padding: 10px 30px;
+    }
+    nav ul.navbar-nav > li > a{
+        color: #fff;
+    }
+    nav ul.navbar-nav > li{
+        position: relative;
+    }
+    ul.navbar-nav > li span{
+        display: block;
+        position: absolute;
+        right: 5%;
+        top:6px;
+        width:32px;
+        height: 32px;
+        color: #0b3c5d;
+        background: #fff;
+        text-align: center;
+        line-height: 32px;
+        z-index: 999;
+        font-size: 16px;
+    }
+    ul.navbar-nav > li span.sub-drop i::before{
+        content:"\f068";
+    }
+    nav ul.navbar-nav > li > a .fa-plus,.fa-minus{
+       display: none;
+    }
+    /*----------------------------
+     top-banner-start
+    ------------------------------*/
+    .top-banner-wrap .image-slide-01,
+    .top-banner-wrap .image-slide-02{
+        max-height: 680px;
+        height: 446px;
+    }
+    .top-banner-wrap.owl-carousel .owl-prev{
+        left: 0.8%;
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+    .top-banner-wrap.owl-carousel .owl-next {
+        font-size: 18px;
+        right: 0.8%;
+        width: 36px;
+        height: 36px;
+    }
+    .slide-text .sub-tittle h4 {
+        font-size: 12px;
+    }
+    .slide-text .min-tittle h1 {
+        font-size: 46px;
+        padding: 10px 0px;
+    }
+    .slide-dect p{
+        font-size: 13px;
+    }
+    .slide-btn-1 a {
+        padding: 16px 40px;
+        font-size: 16px;
+    }
+    a.theme-btn{
+        padding: 16px 40px;
+        font-size: 16px;
+    }
+    /*----------------------------
+     top-banner-end
+    ------------------------------*/
+    /*----------------------------
+     About-start
+    ------------------------------*/
+    .title h2 {
+        font-size: 38px;
+    }
+    /*----------------------------
+     About-end
+    ------------------------------*/
+    /*----------------------------
+      services-start
+    ------------------------------*/
+    .services-box{
+        margin-bottom: 40px;
+    }
+    /*----------------------------
+     services-end
+    ------------------------------*/
+    /*----------------------------
+     commerial-start
+    ------------------------------*/
+    .commerial-text{
+        text-align: center;
+    }
+    /*----------------------------
+     commerial-end
+    ------------------------------*/
+    
+}
+@media only screen and (max-width:576px){
+    .top-banner-wrap .image-slide-01,
+    .top-banner-wrap .image-slide-02 {
+        max-height: 680px;
+        height: 380px;
+    }
+    .top-banner-wrap .owl-nav{
+        display: none;
+    }
+    .slide-text .min-tittle h1 {
+        font-size: 32px;
+        padding: 7px 0px;
+    }
+    .slide-dect p {
+        padding-bottom: 0px;
+    }
+    .slide-btn-1 a {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+    a.theme-btn {
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .services-box {
+        max-width: 330px;
+        margin: 15px auto;
+    }
+    .commerial-wrap .commerial-img {
+        padding: 80px 38px;
+    }
+    .blog-wrap .blog-box{
+        max-width: 329px;
+        margin: 15px auto;
+    }
+    .get-wrap .get-box p{
+        padding: 0;
+    }
+    .get-box .phone-text a {
+        font-size: 32px;
+        margin-left: 14px;
+    }
+    .get-box .phone-text img{
+        max-width: 10%;
+    }
+    .our-team-wrap .team-wrap {
+        max-width: 324px;
+        margin: 0 auto;
+    }
+    .footer-wrap .footer-widget{
+        margin-bottom: 35px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .top-right {
+        text-align:center;
+    }
+    .topbar-phone {
+        padding: 12px 0px;
+    }
+    .navbar.navbar-expand-lg{
+        width:70%;
+    }
+    .slide-text .min-tittle h1 {
+        font-size: 28px;
+        padding: 5px 0px;
+    }
+    .slide-dect p {
+        line-height: 24px;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .about-wrap .about-box {
+        margin-left: 5px;
+    }
+    .list-icon ul li {
+        flex-basis: 100%;
+    }
+    .newsletter-wrap {
+        padding: 35px 20px;
+    }
+    .newsletter-wrap .newsletter-tittle h3 span{
+        font-size: 18px;
+    }
+    .newsletter-wrap .newsletter-tittle h3 {
+        font-size: 26px;
+    }
+    .newsletter-wrap form input[type="submit"]{
+        position: static;
+        width: 100%;
+        padding: 15px 0px;
+        margin-top: 10px;
+    }
+}
